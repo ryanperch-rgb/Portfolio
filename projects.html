@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <a class="logo" href="index.html">
+        MY<span>PORTFOLIO.</span>
+    </a>
+
+    <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle menu"
+        aria-expanded="false">
+        ☰
+    </button>
+
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+
+        <button id="themeToggle" class="theme-btn">
+            ☀ Light Mode
+        </button>
+    </nav>
+</header>
+
+<main class="page-main">
+
+    <!-- PAGE TITLE -->
+    <section class="page-heading">
+        <p class="eyebrow">03 / MY SCHOOL ACTIVITIES</p>
+
+        <h1>My <span>Projects.</span></h1>
+
+        <p>Explore my original activities from class.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section">
+
+        <!-- PROJECT FILTERS -->
+        <div class="filters">
+            <button class="filter active" data-filter="all">
+                All Projects
+            </button>
+
+            <button class="filter" data-filter="web">
+                Web Pages
+            </button>
+
+            <button class="filter" data-filter="creative">
+                Creative Work
+            </button>
+        </div>
+
+        <div class="project-grid">
+
+            <!-- 1. HOME PAGE -->
+            <a href="homepage.html"
+               class="project-card home-preview"
+               data-category="web"
+               target="_blank"
+               rel="noopener">
+
+                <div class="project-icon">&lt;/&gt;</div>
+
+                <span class="preview-category">
+                    01 / HTML &amp; CSS
+                </span>
+
+                <h3>Home Page</h3>
+
+                <p>My personal homepage project.</p>
+
+                <span class="project-action">
+                    Visit Project ↗
+                </span>
+            </a>
+
+            <!-- 2. DISHES -->
+            <a href="dishes.html"
+               class="project-card dishes-preview"
+               data-category="web"
+               target="_blank"
+               rel="noopener">
+
+                <div class="project-icon">✿</div>
+
+                <span class="preview-category">
+                    02 / HTML
+                </span>
+
+                <h3>Dishes</h3>
+
+                <p>A webpage featuring different dishes and recipes.</p>
+
+                <span class="project-action">
+                    Visit Project ↗
+                </span>
+            </a>
+
+            <!-- 3. STORY BOOKS -->
+            <a href="https://ryanperch-rgb.github.io/Stories-of-the-Unknowns/"
+               class="project-card stories-preview"
+               data-category="creative"
+               target="_blank"
+               rel="noopener">
+
+                <div class="project-icon">▤</div>
+
+                <span class="preview-category">
+                    03 / WEB DESIGN
+                </span>
+
+                <h3>Story Books</h3>
+
+                <p>My storybook website project.</p>
+
+                <span class="project-action">
+                    Visit Project ↗
+                </span>
+            </a>
+
+            <!-- 4. TEACHER'S DAY MESSAGE -->
+            <a href="https://ryanperch-rgb.github.io/Teachers-Month/"
+               class="project-card teacher-preview"
+               data-category="creative"
+               target="_blank"
+               rel="noopener">
+
+                <div class="project-icon">✦</div>
+
+                <span class="preview-category">
+                    04 / HTML &amp; CSS
+                </span>
+
+                <h3>Teacher's Day Message</h3>
+
+                <p>A special webpage dedicated to teachers.</p>
+
+                <span class="project-action">
+                    Visit Project ↗
+                </span>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <a class="logo" href="index.html">
+        MY<span>PORTFOLIO.</span>
+    </a>
+
+    <p>
+        © <span class="year"></span>
+        Ryan Eisa Perocho. All rights reserved.
+    </p>
+
+    <a href="#" class="back-top">Back to Top ↑</a>
+</footer>
+
+</body>
+</html>

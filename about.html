@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="navbar">
+    <a class="logo" href="index.html">MY<span>PORTFOLIO.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button id="themeToggle" class="theme-btn">☀ Light Mode</button>
+    </nav>
+</header>
+
+<main class="page-main">
+    <section class="page-heading">
+        <p class="eyebrow">01 / GET TO KNOW ME</p>
+        <h1>About <span>Me.</span></h1>
+        <p>My background, education, and interests.</p>
+    </section>
+
+    <section class="about-layout section">
+        <img src="profile.jpg" alt="My profile picture" class="about-img">
+
+        <div>
+            <p class="eyebrow">WHO AM I?</p>
+            <h2>A student passionate about technology.</h2>
+            <p class="description">
+                Hello! My name is Ryan Eisa Perocho. I am a Bachelor of Science
+                in Information Technology student at Bestlink College
+                of the Philippines. I am interested in computers,
+                programming, and creating websites.
+            </p>
+
+            <div id="moreInfo" class="more-info hidden">
+                <p class="description">
+                    I continue to develop my skills through school
+                    activities and personal projects. I enjoy learning
+                    new concepts, exploring design ideas, and finding
+                    ways to improve my work.
+                </p>
+                <h3>My Interests</h3>
+                <ul class="interest-list">
+                    <li>Web design and development</li>
+                    <li>Programming and technology</li>
+                    <li>Creative digital projects</li>
+                    <li>Learning new computer skills</li>
+                </ul>
+            </div>
+
+            <button class="btn primary" id="readMoreBtn"
+                    aria-expanded="false" aria-controls="moreInfo">
+                Read More +
+            </button>
+        </div>
+    </section>
+
+    <section class="section">
+        <p class="eyebrow">MY EDUCATION</p>
+        <div class="info-card">
+            <span class="card-icon">✦</span>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Bestlink College of the Philippines</p>
+            <p class="muted">College Education</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <a class="logo" href="index.html">MY<span>PORTFOLIO.</span></a>
+    <p>© <span class="year"></span> Ryan Eisa Perocho. All rights reserved.</p>
+    <a href="#" class="back-top">Back to Top ↑</a>
+</footer>
+</body>
+</html>

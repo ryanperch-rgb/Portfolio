@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Home</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <a class="logo" href="index.html">
+            MY<span>PORTFOLIO.</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle menu">☰</button>
+
+        <nav id="navMenu">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+
+            <button id="themeToggle" class="theme-btn">
+                ☀ Light Mode
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+
+       
+<section class="hero" id="home">
+    
+<div class="hero-visual">
+    <div class="glow"></div>
+
+    <div class="profile-card">
+        <img src="profile.jpg"
+             alt="Profile picture of Perocho, Rya Eisa"
+             class="profile-img">
+
+        <p class="big-label">GET TO KNOW ME</p>
+        <h2>Perocho, Rya Eisa</h2>
+        <p>BS Information Technology Student</p>
+
+        <div class="profile-badge">✨ Always Learning</div>
+    </div>
+
+    <div class="floating-label">💻 Programmer</div>
+</div>
+
+</section>
+
+
+
+        <!-- ABOUT INTRODUCTION -->
+        <section class="section intro-section">
+
+            <p class="eyebrow">A LITTLE INTRODUCTION</p>
+
+            <h2>
+                Learning today.<br>
+                <span>Creating tomorrow.</span>
+            </h2>
+
+            <p class="description">
+                I enjoy learning about technology, programming, and web
+                design. My goal is to improve my skills by creating useful
+                and creative projects.
+            </p>
+
+            <a href="about.html" class="text-link">
+                More About Me ↗
+            </a>
+
+        </section>
+
+
+        <!-- FEATURED PROJECTS -->
+        <section class="section featured-section" id="projects">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">MY SCHOOL ACTIVITIES</p>
+                    <h2>My Projects<span>.</span></h2>
+                </div>
+
+                <a href="projects.html" class="text-link">
+                    View All ↗
+                </a>
+            </div>
+
+
+            <div class="project-grid">
+
+                <!-- PROJECT 1: HOME PAGE -->
+                <a href="homepage.html"
+                   class="project-card home-preview"
+                   target="_blank" rel="noopener">
+
+                    <div class="project-icon">&lt;/&gt;</div>
+
+                    <span class="preview-category">
+                        01 / HTML & CSS
+                    </span>
+
+                    <h3>Home Page</h3>
+
+                    <p>My personal homepage activity.</p>
+
+                    <span class="project-action">
+                        Open Project ↗
+                    </span>
+                </a>
+
+
+                <!-- PROJECT 2: DISHES -->
+                <a href="dishes.html"
+                   class="project-card dishes-preview"
+                   target="_blank" rel="noopener">
+
+                    <div class="project-icon">✿</div>
+
+                    <span class="preview-category">
+                        02 / HTML
+                    </span>
+
+                    <h3>Dishes</h3>
+
+                    <p>My dishes and recipes webpage.</p>
+
+                    <span class="project-action">
+                        Open Project ↗
+                    </span>
+                </a>
+
+
+                <!-- PROJECT 3: STORY BOOKS -->
+                <a href="https://ryanperch-rgb.github.io/Stories-of-the-Unknowns/"
+                   class="project-card stories-preview"
+                   target="_blank" rel="noopener">
+
+                    <div class="project-icon">▤</div>
+
+                    <span class="preview-category">
+                        03 / WEB DESIGN
+                    </span>
+
+                    <h3>Story Books</h3>
+
+                    <p>My storybook website project.</p>
+
+                    <span class="project-action">
+                        Open Project ↗
+                    </span>
+                </a>
+
+
+                <!-- PROJECT 4: TEACHER'S DAY MESSAGE -->
+                <a href="https://ryanperch-rgb.github.io/Teachers-Month/"
+                   class="project-card teacher-preview"
+                   target="_blank" rel="noopener">
+
+                    <div class="project-icon">✦</div>
+
+                    <span class="preview-category">
+                        04 / HTML & CSS
+                    </span>
+
+                    <h3>Teacher's Day Message</h3>
+
+                    <p>A special webpage dedicated to teachers.</p>
+
+                    <span class="project-action">
+                        Open Project ↗
+                    </span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- DATE AND TIME -->
+        <section class="section">
+            <div class="info-card">
+                <p class="eyebrow">CURRENT DATE AND TIME</p>
+                <h3 id="dateTime">Loading date and time...</h3>
+            </div>
+        </section>
+
+
+        <!-- CONTACT BANNER -->
+        <section class="section">
+            <div class="contact-banner">
+
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>Thank you for visiting!</h2>
+
+                <p>
+                    Feel free to explore my portfolio and get in touch.
+                </p>
+
+                <a href="contact.html" class="btn primary">
+                    Contact Me ↗
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <a class="logo" href="index.html">
+            MY<span>PORTFOLIO.</span>
+        </a>
+
+        <p>
+            © <span class="year"></span> Your Name. All rights reserved.
+        </p>
+
+        <a href="#" class="back-top">Back to Top ↑</a>
+    </footer>
+
+</body>
+</html>
